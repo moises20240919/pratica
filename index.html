@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kigae Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>kigae Shop</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Produtos</a>
+      <a href="#">Promoções</a>
+      <a href="#" id="cart-link">Carrinho (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h2>Frete Grátis nas Compras Acima de R$100!</h2>
+    <p>Confira nossas ofertas imperdíveis.</p>
+  </section>
+
+  <section class="products">
+    <!-- Produto Exemplo 1 -->
+    <div class="product">
+      <img src="https://via.placeholder.com/250" alt="Produto 1">
+      <h3>Fone de Ouvido Bluetooth</h3>
+      <p>R$ 149,90</p>
+      <button onclick="addToCart('Fone de Ouvido Bluetooth', 149.90)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto Exemplo 2 -->
+    <div class="product">
+      <img src="https://via.placeholder.com/250" alt="Produto 2">
+      <h3>Relógio Smartwatch</h3>
+      <p>R$ 299,90</p>
+      <button onclick="addToCart('Relógio Smartwatch', 299.90)">Adicionar ao Carrinho</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 KigaeShop. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="function.js"></script>
+</body>
+</html>
+
+   
+  
